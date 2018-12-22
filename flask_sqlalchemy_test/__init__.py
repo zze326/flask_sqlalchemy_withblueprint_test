@@ -1,7 +1,6 @@
 from flask import Flask, g
 from flask_sqlalchemy import SQLAlchemy
 
-db = None
 app = Flask(__name__)
 app.config.from_pyfile("settings.py")
 
